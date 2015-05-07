@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example03", "Example03\Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example04", "Example04\Example04.csproj", "{DD33F30D-2787-4FEF-9109-16B4A779FF53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber", "GuessNumber\GuessNumber.csproj", "{5560B2EA-C05B-4A89-917E-C770F512FFEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DD33F30D-2787-4FEF-9109-16B4A779FF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD33F30D-2787-4FEF-9109-16B4A779FF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD33F30D-2787-4FEF-9109-16B4A779FF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5560B2EA-C05B-4A89-917E-C770F512FFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5560B2EA-C05B-4A89-917E-C770F512FFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5560B2EA-C05B-4A89-917E-C770F512FFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5560B2EA-C05B-4A89-917E-C770F512FFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
