@@ -22,20 +22,7 @@ namespace GuessNumber
         private void Form1_Load(object sender, EventArgs e)
         {
             statusLabel.Text = "";
-            int number;
-
-            Random random = new Random();
-            number = 0;
-            while (number < 4)
-            {
-                guess[number] = random.Next(0, 10);
-                for (int i = 0; i < number; i++)
-                {
-                    if (guess[number] == guess[i])
-                        number--;
-                }
-                number++;
-            }
+            GetGuessNumber();
             resultTextBox.Text = "Start\r\n";
         }
 
@@ -80,6 +67,24 @@ namespace GuessNumber
             {
                 MessageBox.Show("Please input a number.");
                 e.Handled = true;
+            }
+        }
+
+        private void GetGuessNumber()
+        {
+            int number;
+
+            Random random = new Random();
+            number = 0;
+            while (number < 4)
+            {
+                guess[number] = random.Next(0, 10);
+                for (int i = 0; i < number; i++)
+                {
+                    if (guess[number] == guess[i])
+                        number--;
+                }
+                number++;
             }
         }
     }
